@@ -4,6 +4,8 @@
  ## Version
  Currently on Version 2 (January 30, 2021): added is_english column as final column to all review CSVs, identifying as a boolean if the review is in English; included the code used to determine this in the ./notebooks directory on GitHub release, with additional notes and cautions included.
 
+ I recommend cloning this archive directly at this time, as of January 30, 2021 there are significant flaws in the official release for tlj_reviews.csv (but not significantly for any other flaws) related to language detection, but these have been patched in recent commits.
+
 ### Context
 
 Companies who produce mass media often seek to set metrics for performance, like any employer, which determine whether projects are successful and whether the product should be continued - as well as whether those involve in its production should be rewarded. In the field of video games, this has led to the controversial practice of [tying salary bonuses for developers to user and critic reactions](https://arstechnica.com/gaming/2012/03/why-linking-developer-bonuses-to-metacritic-scores-should-come-to-an-end/) to the product - usually as quantified by the website Metacritic. While the link between RottenTomatoes - the equivalent of Metacritic for film - and anyone's bottom line [is somewhat less clear](https://www.theringer.com/movies/2020/9/4/21422568/rotten-tomatoes-effective-on-box-office), it *is* clear that in recent years, these two websites - Metacritic for video games and RottenTomatoes for movies - have become ideological grounds for battle in the case of high profile games and movies.
